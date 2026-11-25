@@ -34,4 +34,4 @@ First run auto-creates `db.sqlite` in the project root, seeds the exercise libra
 
 **UI (`app/streamlit_app.py`):** Single-file Streamlit app with two pages via sidebar radio: "Log Workout" (select a template+day to prefill prescribed exercises, or go freeform; edit sets in a `st.data_editor` grid; save writes one `WorkoutSession` + N `SetLog` rows) and "History" (per-exercise weight-over-time line chart, plus an expandable list of past sessions). `get_session_factory()` is wrapped in `@st.cache_resource` so the engine/sessionmaker is created once per Streamlit process.
 
-**Phase 2 (not yet implemented):** an onboarding form collecting experience level, age bracket, goals, equipment, and limitations, mapped to a template recommendation, plus an `ExerciseSubstitution` table for injury/limitation-based swaps. The referenced `fitness-app-architecture.md` design doc is not present in this repo.
+**Phase 2 (not yet implemented):** an onboarding form collecting experience level, age bracket, goals, equipment, and limitations, mapped to a template recommendation, plus an `ExerciseSubstitution` table for injury/limitation-based swaps.

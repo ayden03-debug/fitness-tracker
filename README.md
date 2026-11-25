@@ -2,7 +2,7 @@
 
 Log workouts, optionally against a pre-built program template (Beginner Full
 Body, PPL), and track progress over time. No onboarding/recommendation
-engine yet — that's Phase 2 (see `fitness-app-architecture.md`).
+engine yet — that's Phase 2.
 
 ## Setup
 
@@ -51,6 +51,4 @@ fitness-app/
 Add `core/recommendation.py` + an onboarding form: collect experience
 level, age bracket, goals, equipment, and limitations, then map that to one
 of the templates (or a new one) — plus an exercise substitution table for
-injury/limitation flags. The data model already has room for this; see
-section 3 of the architecture doc for the planned `OnboardingProfile` and
-`ExerciseSubstitution` tables.
+injury/limitation flags. The data model already has room for this, with planned `OnboardingProfile` and `ExerciseSubstitution` tables.
