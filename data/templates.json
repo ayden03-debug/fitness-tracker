@@ -1,0 +1,57 @@
+[
+  {
+    "name": "Beginner Full Body 3x",
+    "days": [
+      {
+        "name": "Day A",
+        "prescriptions": [
+          {"exercise": "Bodyweight Squat", "target_sets": 3, "target_reps": "10-15"},
+          {"exercise": "Push-Up", "target_sets": 3, "target_reps": "8-12"},
+          {"exercise": "Seated Row (Resistance Band)", "target_sets": 3, "target_reps": "10-15"},
+          {"exercise": "Plank", "target_sets": 3, "target_reps": "20-40s"}
+        ]
+      },
+      {
+        "name": "Day B",
+        "prescriptions": [
+          {"exercise": "Goblet Squat", "target_sets": 3, "target_reps": "8-12"},
+          {"exercise": "Incline Dumbbell Press", "target_sets": 3, "target_reps": "8-12"},
+          {"exercise": "Lat Pulldown", "target_sets": 3, "target_reps": "8-12"},
+          {"exercise": "Cable Crunch", "target_sets": 3, "target_reps": "10-15"}
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Push Pull Legs",
+    "days": [
+      {
+        "name": "Push",
+        "prescriptions": [
+          {"exercise": "Barbell Bench Press", "target_sets": 4, "target_reps": "6-10"},
+          {"exercise": "Overhead Press", "target_sets": 3, "target_reps": "8-12"},
+          {"exercise": "Dumbbell Lateral Raise", "target_sets": 3, "target_reps": "12-15"},
+          {"exercise": "Triceps Pushdown", "target_sets": 3, "target_reps": "10-15"}
+        ]
+      },
+      {
+        "name": "Pull",
+        "prescriptions": [
+          {"exercise": "Pull-Up", "target_sets": 4, "target_reps": "6-10"},
+          {"exercise": "Barbell Row", "target_sets": 3, "target_reps": "8-12"},
+          {"exercise": "Seated Cable Row", "target_sets": 3, "target_reps": "10-12"},
+          {"exercise": "Bicep Curl (Dumbbell)", "target_sets": 3, "target_reps": "10-15"}
+        ]
+      },
+      {
+        "name": "Legs",
+        "prescriptions": [
+          {"exercise": "Barbell Back Squat", "target_sets": 4, "target_reps": "6-10"},
+          {"exercise": "Romanian Deadlift", "target_sets": 3, "target_reps": "8-12"},
+          {"exercise": "Leg Press", "target_sets": 3, "target_reps": "10-15"},
+          {"exercise": "Calf Raise", "target_sets": 4, "target_reps": "12-20"}
+        ]
+      }
+    ]
+  }
+]
